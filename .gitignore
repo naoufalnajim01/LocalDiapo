@@ -1,0 +1,37 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dossier média (contenu utilisateur)
+media/*
+!media/.gitkeep
+
+# Fichiers temporaires PHP
+*.log
+*.tmp
+*.cache
+
+# Sessions PHP
+sessions/
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de configuration personnalisés
+config.local.php
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~
+
+# Node modules (si utilisé pour le développement)
+node_modules/
+
+# Composer (si utilisé)
+vendor/
+composer.lock
