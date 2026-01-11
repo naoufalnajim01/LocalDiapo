@@ -3,6 +3,11 @@
 Thumbs.db
 desktop.ini
 
+# Documentation interne (ne pas publier)
+PUBLICATION_*.md
+RECAPITULATIF*.md
+PROFIL_GITHUB*.md
+
 # Dossier média (contenu utilisateur)
 media/*
 !media/.gitkeep
